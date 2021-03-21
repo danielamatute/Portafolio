@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Poiret+One&display=swap');
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Poiret One';
+}
+
+body{
+	font-family: 'Poiret One';
+	font-size: 14px;
+	color: #fff;
+	background-color: #000;
+}
+
+
+header {
+padding: 20px 0;
+background-color: #000;
+	align-content: center;
+}
+
+
+.section{
+	padding:50px 0;
+	min-height:300px;
+}
+
+.header-area.sticky {
+    /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);*/
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+	transition: 0.3s all ease;
+}
+.header-area.sticky .navbar-light{
+	background-color: #000 !important;
+}
+
+#daniela{
+	text-align: center;
+	padding: 30px;
+	
+}
+#daniela .img-fluid{
+	box-shadow: 0px 0 0px 8px #44D3FF;
+}
+
+
+#daniela h2{
+	font-family: 'Poiret one';
+	padding: 30px;
+	color:#A9B6FF;
+	text-transform: uppercase;
+	font-size: 50px;
+	
+}
+#daniela p{
+	color: #fff;
+	font-size:18px;
+	margin: 10px;
+}
+
+#services {
+	background-color: #000;
+}
+
+#services .fa-camera, .fa-pen-nib {
+	background-color: #97CDFF;
+	
+	width: 90px;
+	height: 90px;
+	line-height: 90px;
+	text-align: center;
+	color: #000;
+	font-size: 26px;
+	margin-bottom: 15px;
+	margin-left: 230px;
+}
+#services .fa-hands-helping{
+	background-color: #97CDFF;
+	border-radius: 100%;
+	
+	width: 90px;
+	height: 90px;
+	line-height: 90px;
+	text-align: center;
+	color: #000;
+	font-size: 26px;
+	margin-bottom: 15px;
+	margin-left: 505px;
+}
+
+#services h4 {
+	text-align: center;
+	color: #fff;
+}
+
+#services p {
+	text-align: center;
+	color: #fff;
+}
+
+#examples{
+	text-align: center;
+	color:  #8DBAFF;
+	text-transform: uppercase;
+}
+#examples h2{
+	padding: 10px 0px;
+}
+
+#foto{
+	text-transform: uppercase;
+	text-align: center;
+}
+#contact{
+
+	
+}
+#contact .containerc{
+	align-content: center;
+	margin: 20px;
+	padding-left: 70px;
+}
+footer {
+	background-color: #44D3FF;
+	padding: 20px  0px;
+	color: #000;
+	text-align: center;
+	
+	
+}
+footer .containerd{
+	padding-left: 550px;
+	
+	
+}
+#carousel {
+	text-align: center;
+	color: #8DBAFF;
+	margin: 30px;
+}
